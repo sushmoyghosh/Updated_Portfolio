@@ -42,7 +42,7 @@ section{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 999;
+    z-index: 9;
 }
 
 .back-to-top-button {
@@ -53,11 +53,13 @@ section{
 
 
 
+
  
 /* responsive */
 @media only screen and (max-width:786px) {
     .toggle{
         margin-right: 20px !important;
+        background: none !important;
     }
     
 }

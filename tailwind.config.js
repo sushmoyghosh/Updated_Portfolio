@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        primaryColor:"#8873ef",
+        primaryColor:"#8873EF",
         headingColor:"#081e21",
         smallTextColor:"#193256",
         
@@ -15,6 +15,9 @@ module.exports = {
     },
   },
   // ...
+  variants: {
+    extend: {},
+  },
   plugins: [require('daisyui')],
   daisyui: {
     themes: ['light', 'dark'],

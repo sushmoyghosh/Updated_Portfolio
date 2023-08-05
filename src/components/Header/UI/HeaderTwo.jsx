@@ -58,6 +58,12 @@ const HeaderTwo = () => {
   }, [theme]);
 
 
+
+
+
+ 
+
+
   return (
     <div className={navbar ? 'head active' : 'head'}>
       <div className='flex px-4 justify-between items-center w-full h-20 text-dark'>
@@ -84,6 +90,8 @@ const HeaderTwo = () => {
       <div className="swap-on "><BsMoonStars/></div>
       <div className="swap-off"><BiSolidSun/></div>
     </label>
+
+    
 
          
         </ul>
