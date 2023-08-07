@@ -13,7 +13,7 @@ const Hero = () => {
   return (
 
     
-   <section className='pt-20' id='hero'>
+   <section className='pt-20 bg-bgColorOne' id='hero' >
      <div className='container pt-16'>
         <div className='md:flex items-center justify-between sm:flex-col md:flex-row '>
 
@@ -54,7 +54,7 @@ const Hero = () => {
           
           <button className='bg-primaryColor  text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'>
           <i class='ri-mail-line'></i>
-          <a href='./SushmoyGhosh_Resume.pdf' download='CV' >Download CV</a>
+          <a href='#contact'  >Contact Me</a>
           </button>
           
           <a href='#portfolio' className='group flex items-center text-dark font-[600] text-[16px] border-b border-solid border-dark'>
@@ -151,16 +151,12 @@ organization and explore my potential.
     {/* hero img*/}
     <div className='basis-1/3 mt-10 sm:mt-0'>
       <figure 
-      data-aos="fade-left"
-          data-aos-duration="1500"
+      
       
       className='flex items-center justify-center
        ring-8 ring-stone-800 ring-offset-8 ring-offset-slate-100'>
            <img 
-           data-aos="fade-up"
-           data-aos-duration="1800"
-           data-aos-delay="200"
-           
+         
            src={heroImg} alt='heroimg'/>
       </figure>
     </div>
@@ -180,7 +176,7 @@ organization and explore my potential.
 
     <div className='mb-10'>
     <h2 className='text-dark font-[700] text-[32px]'>
-     <CountUp start={0} end={46} duration={2} suffix="+"/>
+     <CountUp start={0} end={15} duration={2} suffix="+"/>
     </h2>
     <h4 className='text-dark font-[600] text-[18px]'>
    Projects Completed

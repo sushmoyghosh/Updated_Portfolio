@@ -12,6 +12,7 @@ import Skill from './components/Header/UI/Skill';
 import SkillsTab from './components/Header/UI/SkillsTab';
 import Contact from './components/Header/UI/Contact';
 import BackToTop from './components/Header/UI/BackToTop';
+import Testimonial from './components/Header/UI/Testimonial';
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
       
       <Skill/>
       <SkillsTab/>
+      <Testimonial/>
       <Contact/>
       <Footer/>
       

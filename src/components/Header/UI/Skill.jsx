@@ -20,6 +20,7 @@ const Service = () => {
           As a <span className='text-primaryColor'>Web Developer</span>,
           </h6>
           <p className='lg:max-w-[100%]'>
+          I'm a Front-end Developer.I code and create web elements for amazing people around the world. I like work with new people & new environment.New people = new Experiences.<br/>
           For the betterment of my skills, I have also completed a course on Responsive web design from 
           Institute Creative IT, Dhaka.I'm trying my best to learn as much as possible from net,different websites,LinkedIn learning and youtube for better knowledege & to update myself for this updated generation regularly.To see my work:
           <a href='#portfolio'

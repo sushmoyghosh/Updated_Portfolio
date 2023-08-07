@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from "../img/cv.jpg";
+import heroImg from "../img/cv1 (2).png";
 
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
   data-aos="fade-left"
       data-aos-duration="1500"
   
-  className='w-60 lg:ml-32 lg:block hidden flex items-center justify-center drop-shadow-2xl '>
+  className='w-80 lg:ml-32 lg:mt-20 lg:block hidden flex items-center justify-center drop-shadow-2xl '>
        <img 
        data-aos="fade-right"
        data-aos-duration="1800"

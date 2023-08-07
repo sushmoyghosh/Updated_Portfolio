@@ -47,7 +47,7 @@ useEffect(()=>{
 
 
   return (
-    <section id='portfolio'>
+    <section id='portfolio' className='bg-bgColorThree mt-2'>
       <div className='container'>
           <div className='flex items-center justify-between flex-wrap'>
             <div className='mb-7 sm:mb-0'>
