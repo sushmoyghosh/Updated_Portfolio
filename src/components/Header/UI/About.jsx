@@ -4,7 +4,7 @@ import heroImg from "../img/cv1 (2).png";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className='bg-bgColorOne'>
 
 
 

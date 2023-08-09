@@ -13,7 +13,7 @@ const Hero = () => {
   return (
 
     
-   <section className='pt-20 bg-bgColorOne' id='hero' >
+   <section className='pt-20 ' id='hero' >
      <div className='container pt-16'>
         <div className='md:flex items-center justify-between sm:flex-col md:flex-row '>
 
@@ -156,6 +156,9 @@ organization and explore my potential.
       className='flex items-center justify-center
        ring-8 ring-stone-800 ring-offset-8 ring-offset-slate-100'>
            <img 
+           data-aos="fade-right"
+       data-aos-duration="1800"
+       data-aos-delay="200"
          
            src={heroImg} alt='heroimg'/>
       </figure>
