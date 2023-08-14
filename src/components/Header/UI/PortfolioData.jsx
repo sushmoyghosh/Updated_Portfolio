@@ -14,6 +14,7 @@ import portfolioImg012 from "../img/web10.png";
 import portfolioImg013 from "../img/web11.png";
 import portfolioImg014 from "../img/web12.png";
 import portfolioImg015 from "../img/web13.png";
+import portfolioImg016 from "../img/web14.png";
 
 const portfolios = [
   {
@@ -176,6 +177,16 @@ const portfolios = [
       "Changes/modified the design,Data entry,add upload,content writting by AVADA page builder editor ",
     technologies: ["Worpress"],
     siteUrl: "https://careerpaths.com.bd/",
+  },
+  {
+    id: "17",
+    imgUrl: portfolioImg016,
+    category: "Nextjs",
+    title: "E-commerce",
+    description:
+      "Nextjs First Project",
+    technologies: ["Nextjs","Tailwind CSS", "HTML", "CSS"],
+    siteUrl: "https://golden-banoffee-434884.netlify.app/",
   },
 ];
 

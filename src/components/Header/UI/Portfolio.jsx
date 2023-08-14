@@ -32,6 +32,10 @@ useEffect(()=>{
     const filteredData = data.filter(item=> item.category ==='Reactjs')
     setPortfolios(filteredData)
    }
+   if(selectTab ==='Nextjs'){
+    const filteredData = data.filter(item=> item.category ==='Nextjs')
+    setPortfolios(filteredData)
+   }
 
    if(selectTab ==='responsive_website'){
     const filteredData = data.filter(item=> item.category ==='Responsive')
@@ -68,6 +72,12 @@ useEffect(()=>{
             Reactjs
             </button>
             <button 
+      onClick={()=>setSelectTab('Nextjs')}
+      className='text-dark lg:block hidden border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
+      Nextjs
+      </button>
+           
+            <button 
             onClick={()=>setSelectTab('wordpress')}
             className='text-dark border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
             WordPress
@@ -81,8 +91,17 @@ useEffect(()=>{
             
           
            </div>
+          
 
       </div>
+      <div className='flex gap-1'>
+           
+      <button 
+      onClick={()=>setSelectTab('Nextjs')}
+      className='text-dark mt-2 sm:hidden border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>
+      Nextjs
+      </button>
+     </div>
 
       <div className='flex items-center gap-4 flex-wrap mt-12'>
       {
