@@ -56,7 +56,7 @@ const Testimonial = () => {
               "Sushmoy's exceptional communication skills foster a collaborative and inclusive environment, where team members feel empowered to share ideas and insights."
               </h5>
               <p className='text-dark font-bold'>Tasnin Jahan Tithi</p>
-              <p className='text-dark font-normal text-sm sm:text-base'>Develop team Member of MHS Planet</p>
+              <p className='text-dark font-normal text-sm sm:text-base'>Developer team Member of MHS Planet</p>
             </div>
           </div>
         </Carousel.Item>

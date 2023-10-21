@@ -15,6 +15,9 @@ import portfolioImg013 from "../img/web11.png";
 import portfolioImg014 from "../img/web12.png";
 import portfolioImg015 from "../img/web13.png";
 import portfolioImg016 from "../img/web14.png";
+import portfolioImg017 from "../img/wp4.png";
+import portfolioImg018 from "../img/DhakaExpressWPsite.png";
+import portfolioImg019 from "../img/gutenbarg.png";
 
 const portfolios = [
   {
@@ -145,7 +148,7 @@ const portfolios = [
     title: "Win Education",
     description:
       "Changes/modified the design,Data entry,add upload,content writting by BRIZY page builder editor ",
-    technologies: ["Worpress"],
+    technologies: ["WordPress"],
     siteUrl: "https://win-ed.com.bd/",
   },
   {
@@ -165,7 +168,7 @@ const portfolios = [
     title: "Photo Retouching",
     description:
       "Create this page by ELEMENTOR page builder editor ",
-    technologies: ["Worpress"],
+    technologies: ["WorfPress"],
     siteUrl: "https://photoretouchingup.com/v1/services/high-end-photo-retouching-services/",
   },
   {
@@ -175,7 +178,7 @@ const portfolios = [
     title: "Careerpaths",
     description:
       "Changes/modified the design,Data entry,add upload,content writting by AVADA page builder editor ",
-    technologies: ["Worpress"],
+    technologies: ["WordPress"],
     siteUrl: "https://careerpaths.com.bd/",
   },
   {
@@ -187,6 +190,36 @@ const portfolios = [
       "Nextjs First Project",
     technologies: ["Nextjs","Tailwind CSS", "HTML", "CSS"],
     siteUrl: "https://golden-banoffee-434884.netlify.app/",
+  },
+  {
+    id: "18",
+    imgUrl: portfolioImg017,
+    category: "WordPress",
+    title: "School web site",
+    description:
+      "School web site build with elementor pro  ",
+    technologies: ["WordPress","Elementor-pro"],
+    siteUrl: "https://mhsgo.com/education1/",
+  },
+  {
+    id: "19",
+    imgUrl: portfolioImg018,
+    category: "WordPress",
+    title: "Dhaka Express News",
+    description:
+      "Newspaper Theme's front-end page builder",
+    technologies: ["WordPress","tagDiv Composer"],
+    siteUrl: "https://dhakaexpressnews.com/",
+  },
+  {
+    id: "20",
+    imgUrl: portfolioImg019,
+    category: "WordPress",
+    title: "Gutenberg block that fetches JSON data",
+    description:
+      "create a simple Gutenberg block that fetches JSON data from the following endpoint: https://jsonplaceholder.typicode.com/users. The retrieved data displayed as an HTML table on wordPress Page. NOTE: can't upload in live site on github or netlify so attached the video to clear and better understand",
+    technologies: ["WordPress","Gutenberg block", "Reactjs"],
+    siteUrl: "https://drive.google.com/file/d/1nJY9707LPo-C7_4z-Bdthfw2yIsO1V63/view?usp=share_link",
   },
 ];
 
