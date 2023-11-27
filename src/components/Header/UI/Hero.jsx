@@ -179,7 +179,7 @@ organization and explore my potential.
 
     <div className='mb-10'>
     <h2 className='text-dark font-[700] text-[32px]'>
-     <CountUp start={0} end={19} duration={2} suffix="+"/>
+     <CountUp start={0} end={21} duration={2} suffix="+"/>
     </h2>
     <h4 className='text-dark font-[600] text-[18px]'>
    Projects Completed

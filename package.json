@@ -36,6 +36,9 @@
   "flowbite": "^1.8.1",
   
     
+  "postcss-loader": "^7.3.3",
+  
+    
   "react": "^18.2.0",
   
     
@@ -153,7 +156,7 @@
   "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
   
     
-  "daisyui": "^3.5.0",
+  "daisyui": "^4.4.6",
   
     
   "gh-pages": "^5.0.0",

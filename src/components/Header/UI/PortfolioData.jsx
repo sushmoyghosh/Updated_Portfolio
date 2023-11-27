@@ -18,10 +18,44 @@ import portfolioImg016 from "../img/web14.png";
 import portfolioImg017 from "../img/wp4.png";
 import portfolioImg018 from "../img/DhakaExpressWPsite.png";
 import portfolioImg019 from "../img/gutenbarg.png";
+import portfolioImg020 from "../img/foodapp.png";
+import portfolioImg021 from "../img/laravel1.png";
+import portfolioImg022 from "../img/pickbazar.png";
 
 const portfolios = [
   {
     id: "01",
+    imgUrl: portfolioImg020,
+    category: "Reactjs",
+    title: "Food Delivery",
+    description:
+      "React Responsive Food Delivery App Ecommerce Website Design using ReactJs",
+    technologies: ["React","Bootstrap", "HTML", "CSS"],
+    siteUrl: "https://soft-macaron-095651.netlify.app",
+  },
+
+  {
+    id: "22",
+    imgUrl: portfolioImg021,
+    category: "All",
+    title: "Ecommerce",
+    description:
+      "Design this website only the frontend part for a client in office,re-design the pages, create catagory/post-upload-update-delete,basically the service provide.",
+    technologies: ["Laravel"],
+    siteUrl: "https://yzfashionbd.com/",
+  },
+  {
+    id: "23",
+    imgUrl: portfolioImg022,
+    category: "All",
+    title: "Ecommerce",
+    description:
+    "Design this website only the frontend part for a client in office,re-design the pages, create catagory/post-upload-update-delete,basically the service provide.",
+    technologies: ["Laravel","Reactjs"],
+    siteUrl: "https://neilhost.com/",
+  },
+  {
+    id: "21",
     imgUrl: portfolioImg015,
     category: "Reactjs",
     title: "Portfolio",
