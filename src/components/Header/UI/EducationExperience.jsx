@@ -53,7 +53,7 @@ export default function TabsComponent() {
                         className='bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150'>
 
                         <h2 className='text-primaryColor font-[800] mt-3 mb-3 group-hover:text-white group-hover:font-[600]vtext-xl'>
-                       Jr. Software Developer</h2>
+                        Web Developer (Front-End Developer)</h2>
                         <p className='text-[15px]text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
                         2nd May 2023 – Present<br/>
 

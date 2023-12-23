@@ -52,7 +52,7 @@ const portfolios = [
     description:
     "Design this website only the frontend part for a client in office,re-design the pages, create catagory/post-upload-update-delete,basically the service provide.",
     technologies: ["Laravel","Reactjs"],
-    siteUrl: "https://neilhost.com/",
+    siteUrl: "https://traack4u.com/grocery",
   },
   {
     id: "21",
