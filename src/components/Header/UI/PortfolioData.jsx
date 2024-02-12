@@ -21,6 +21,8 @@ import portfolioImg019 from "../img/gutenbarg.png";
 import portfolioImg020 from "../img/foodapp.png";
 import portfolioImg021 from "../img/laravel1.png";
 import portfolioImg022 from "../img/pickbazar.png";
+import portfolioImg023 from "../img/wordpresstravelsite.png";
+import portfolioImg024 from "../img/laravelone.png";
 
 const portfolios = [
   {
@@ -32,6 +34,26 @@ const portfolios = [
       "React Responsive Food Delivery App Ecommerce Website Design using ReactJs",
     technologies: ["React","Bootstrap", "HTML", "CSS"],
     siteUrl: "https://soft-macaron-095651.netlify.app",
+  },
+  {
+    id: "23",
+    imgUrl: portfolioImg023,
+    category: "WordPress",
+    title: "Travel Site",
+    description:
+      "WordPress Travel website using Elementor-pro",
+    technologies: ["WordPress","Elementor-Pro"],
+    siteUrl: "https://mhsgo.com/travel/",
+  },
+  {
+    id: "24",
+    imgUrl: portfolioImg024,
+    category: "All",
+    title: "E-commerce Site",
+    description:
+      "Laravel theme e-commerce website",
+    technologies: ["Laravel"],
+    siteUrl: "https://yzfashionbd.com/",
   },
 
   {
