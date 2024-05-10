@@ -9,7 +9,7 @@ export default function TabsComponent() {
     return (
         <div>
             <div className="container w-full mx-auto mt-12">
-                <div className="flex flex-col items-center justify-center ">
+                <div className="flex flex-col items-center justify-center mt-5">
                     <ul className="flex space-x-2">
                         <li>
                             <a
@@ -42,6 +42,31 @@ export default function TabsComponent() {
              {/*middle line verticle */}
                 <div className='hidden absolute w-1 sm:block bg-indigo-300 h-full left-1/2 transform-translate-x-1/2'>
                 </div>
+                {/*right card */}
+                <div className='mt-6 sm:mt-0 sm:mb-12 '>
+                <div className='flex items-center flex-col sm:flex-row'>
+                  <div className='flex justify-end w-full mx-auto items-center'>
+                    <div className='w-full sm:w-1/2 sm:pl-8'>
+                      <div data-aos='fade-right'
+                      data-aos-duration='1200'
+                      className='bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150'>
+
+                      <h2 className='text-primaryColor font-[700] mt-3 mb-3 group-hover:text-white group-hover:font-[500] vtext-xl'>
+                      Web Developer</h2>
+                      <p className='text-[14px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'> 
+                      16th March 2024 - Present<br/>Web Integrator Ltd, Baridhara<br/>Baridhara J-Block Dhaka</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className='rounded-full bg-primaryColor border-primaryColor border-8 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center'>
+
+                  <figure>
+                  <img src={experience} alt='Education'/>
+                  </figure>
+                  </div>
+                </div>
+              </div>
                 {/*left card */}
 
                 <div className='mt-6 sm:mt-0 sm:mb-12 '>
@@ -55,7 +80,7 @@ export default function TabsComponent() {
                         <h2 className='text-primaryColor font-[800] mt-3 mb-3 group-hover:text-white group-hover:font-[600]vtext-xl'>
                         Web Developer (Front-End Developer)</h2>
                         <p className='text-[15px]text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
-                        2nd May 2023 – Present<br/>
+                        2nd Nov 2022 – 10th March 2024<br/>
 
                         MHS Planet<br/>
                         

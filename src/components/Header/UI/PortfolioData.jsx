@@ -23,8 +23,42 @@ import portfolioImg021 from "../img/laravel1.png";
 import portfolioImg022 from "../img/pickbazar.png";
 import portfolioImg023 from "../img/wordpresstravelsite.png";
 import portfolioImg024 from "../img/laravelone.png";
+import portfolioImg025 from "../img/amazingdeals.png";
+import portfolioImg026 from "../img/unitaskerpro.png";
+import portfolioImg027 from "../img/ishal.png";
 
 const portfolios = [
+  
+  {
+    id: "26",
+    imgUrl: portfolioImg025,
+    category: "WordPress",
+    title: "AmezingDeals",
+    description:
+      "An affiliate website on WordPress which uses the Rehub theme, Elementor Pro, and Greenshift as page builder.",
+    technologies: ["WordPress","Elementor-Pro","GreenShift"],
+    siteUrl: "https://deals.webintegrator.app/",
+  },
+  {
+    id: "27",
+    imgUrl: portfolioImg026,
+    category: "WordPress",
+    title: "UnitaskerPro",
+    description:
+      "A website using Elementor Pro to build the front-end in WordPress, making it user-friendly.",
+    technologies: ["WordPress","Elementor-Pro"],
+    siteUrl: "https://unitaskerpro.com/",
+  },
+  {
+    id: "28",
+    imgUrl: portfolioImg027,
+    category: "WordPress",
+    title: "Ishal Construction site",
+    description:
+      "A construction website on WordPress which uses Elementor Pro and WPBakery Page Builder.",
+    technologies: ["WordPress","Elementor-Pro","WPBakery"],
+    siteUrl: "https://ishal.com.bd/",
+  },
   {
     id: "01",
     imgUrl: portfolioImg020,
@@ -36,7 +70,7 @@ const portfolios = [
     siteUrl: "https://soft-macaron-095651.netlify.app",
   },
   {
-    id: "23",
+    id: "25",
     imgUrl: portfolioImg023,
     category: "WordPress",
     title: "Travel Site",
