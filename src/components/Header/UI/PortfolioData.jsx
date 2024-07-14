@@ -26,9 +26,20 @@ import portfolioImg024 from "../img/laravelone.png";
 import portfolioImg025 from "../img/amazingdeals.png";
 import portfolioImg026 from "../img/unitaskerpro.png";
 import portfolioImg027 from "../img/ishal.png";
+import portfolioImg028 from "../img/MYHOMEITEM.png";
 
 const portfolios = [
   
+  {
+    id: "29",
+    imgUrl: portfolioImg028,
+    category: "WordPress",
+    title: "My Home Items",
+    description:
+      "An affiliate website on WordPress which uses the  Elementor Pro as page builder.",
+    technologies: ["WordPress","Elementor-Pro"],
+    siteUrl: "https://myhomeitem.com/",
+  },
   {
     id: "26",
     imgUrl: portfolioImg025,
@@ -37,7 +48,7 @@ const portfolios = [
     description:
       "An affiliate website on WordPress which uses the Rehub theme, Elementor Pro, and Greenshift as page builder.",
     technologies: ["WordPress","Elementor-Pro","GreenShift"],
-    siteUrl: "https://deals.webintegrator.app/",
+    siteUrl: "https://amaizingdeals.com/",
   },
   {
     id: "27",

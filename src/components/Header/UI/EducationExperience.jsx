@@ -54,7 +54,7 @@ export default function TabsComponent() {
                       <h2 className='text-primaryColor font-[700] mt-3 mb-3 group-hover:text-white group-hover:font-[500] vtext-xl'>
                       Web Developer</h2>
                       <p className='text-[14px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'> 
-                      16th March 2024 - Present<br/>Web Integrator Ltd, Baridhara<br/>Baridhara J-Block Dhaka</p>
+                      16th March 2024 - Present<br/>Web Integrator Ltd.<br/>Baridhara J-Block,Dhaka</p>
                       </div>
                     </div>
                   </div>
